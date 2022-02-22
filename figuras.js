@@ -36,8 +36,8 @@ const alturaTriangulo = 5.5;
 console.log("La altura del triángulo es: " + alturaTriangulo + "cm"); */
 
 
-function perimetroTriangulo(lado1,lado2, base) {
-    return lado1 + lado2 + base;
+function perimetroTriangulo(lado1, lado2, base) {
+    return (lado1 + lado2 + base);
 }
 /* console.log("El perimetro del triángulo es: " + perimetroTriangulo + "cm"); */
  
@@ -87,6 +87,8 @@ console.groupEnd();
 
 // Aqui interactuamos con el html
 
+// cuadrado --------------------------
+
 function calcularPerimetroCuadrado() {
     const input = document.getElementById("InputCuadrado"); //obtenemos toda la etiqueta
     const value = input.value; //obtenemos el valor que ingresan en la etiqueta
@@ -101,5 +103,49 @@ function calcularAreaCuadrado() {
     const value = input.value; //obtenemos el valor que ingresan en la etiqueta
 
     const area = areaCuadrado(value);
+    alert(area);
+}
+
+
+// triangulo ---------------------------
+
+function calcularPerimetroTriangulo() {
+    const lado1 = document.getElementById("InputLado1"); //obtenemos toda la etiqueta
+    const lado2 = document.getElementById("InputLado2"); //obtenemos toda la etiqueta
+    const base = document.getElementById("InputBase"); //obtenemos toda la etiqueta
+
+    const valueLado1 = Number(lado1.value); //obtenemos el valor que ingresan en la etiqueta
+    const valueLado2 = Number(lado2.value); //obtenemos el valor que ingresan en la etiqueta
+    const valueBase = Number(base.value); //obtenemos el valor que ingresan en la etiqueta
+
+    const perimetro = perimetroTriangulo(valueLado1, valueLado2, valueBase);
+    alert(perimetro);
+}
+
+function calcularAreaTriangulo() {
+    const base = document.getElementById("InputBase"); //obtenemos toda la etiqueta
+    const altura = document.getElementById("InputAltura"); //obtenemos toda la etiqueta
+
+    const valueBase = base.value; //obtenemos el valor que ingresan en la etiqueta
+    const valueAltura = altura.value; //obtenemos el valor que ingresan en la etiqueta
+
+    const area = areaTriangulo(valueBase, valueAltura);
+    alert(area); 
+}
+
+//circulo --------------------------------
+
+function calcularPerimetroCirculo() {
+    const input = document.getElementById("InputCirculo"); //obtenemos toda la etiqueta
+    const value = input.value; //obtenemos el valor que ingresan en la etiqueta
+
+    const perimetro = perimetroCirculo(value);
+    alert(perimetro);
+}
+function calcularAreaCirculo() {
+    const input = document.getElementById("InputCirculo"); //obtenemos toda la etiqueta
+    const value = input.value; //obtenemos el valor que ingresan en la etiqueta
+
+    const area = areaCirculo(value);
     alert(area);
 }
