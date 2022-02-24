@@ -5,32 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porcentajes y descuentos</title>
+    <link rel="stylesheet" href="./descuento.css">
 </head>
 <body>
-    <head>
+    <header class="cabecera">
         <h1>Porcentajes y descuentos</h1>
         <p>Segundo taller curso JS </p>
-    </head>
-    <main>
-        <section>
-            <h2>Calcula el precio a pagar de tus productos con descuento</h2>
-
-            <form>
+        <nav>
+            <ul class="cabecera-nav">
+                <li>
+                    <a href="../taller01/figuras.html" target="_blank">Taller 1</a>
+                </li>
+                <li>
+                    <a href="">Taller 3</a>
+                </li>
+                <li>
+                    <a href="">Taller 4</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="main-border">
+            <h2 class="main-title">Calcula el precio a pagar de tus productos con descuento</h2>
+            <figure>
+                <img src="https://www.nominaz.com/wp-content/uploads/2019/11/icono_ahorro_dinero.png" alt="Imagen de ahorro">
+            </figure>
+            <form class="main-cuerpo">
                 <label for="inputPrice">Escribe el precio de tu producto </label>
                 <input id="inputPrice" type="number">
 
                 <label for="inputDiscount">Escribe el descuento de tu producto</label>
                 <input id="inputDiscount" type="number">
-                
-                <button type="button" onclick="onClickButtonPriceDicount()">
-                    Calcular el precio con descuento
-                </button>
-
-                <p id="ResultP"></p>
-
+                <div class="button">
+                    <button type="button" onclick="onClickButtonPriceDicount()">
+                        Calcular el precio con descuento
+                    </button>
+                </div>
+                <div class="messaje">
+                    <p id="ResultP"></p>
+                </div>
             </form>
         </section>
     </main>
+
+    <footer>
+        <a href="https://github.com/Alexdly1 " target="_blank">© 2022 Copyright por Alexander Lizana Yauri</a>
+    </footer>
     <script src="./descuentos.js"></script>
     
 </body>

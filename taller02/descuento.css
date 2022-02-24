@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #eeeeee;
+}
+.cabecera {
+    text-align: center;
+    margin:30px 10px;
+    font-size: 1.7rem;
+}
+.cabecera p {
+    margin-top: 20px;  
+}
+.cabecera-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cabecera-nav a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+.main-container img {
+    width: 100px;
+    margin-top: 10px;
+}
+.main-border {
+    height: 450px;
+    width: 80%;
+    margin: 50px auto;
+    border: #8D60AE 5px solid;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px -6px black;
+    background-color: white;
+}
+.main-border figure {
+    display: flex;
+    justify-content: center;
+}
+.main-title {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+}
+.main-cuerpo {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.main-cuerpo label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px;
+}
+.main-cuerpo input {
+    display: block;
+    width: 50px;
+    height: 30px;
+    margin: 0 auto;  
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button button {
+    width: 120px;
+}
+.messaje {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.messaje p {
+    border: #8D60AE 5px solid;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    padding-top: 5px;
+}
+footer {
+    text-align: center;
+    margin: 30px;
+    font-size: 1.6rem;
+}
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
