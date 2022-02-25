@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porcentajes y descuentos</title>
     <link rel="stylesheet" href="./descuento.css">
+    <link rel="stylesheet" href="./desktop.css" media="(min-width:769px)">
 </head>
 <body>
     <header class="cabecera">
@@ -25,6 +26,14 @@
             </ul>
         </nav>
     </header>
+    <section class="descuentos">
+        <h3>Cupones</h3>
+        <div>
+            <p>Cupon Batman: 15% descuento</p>
+            <p>Cupon Superman: 20% descuento</p>
+            <p>Cupon Spiderman: 25% descuento</p>
+        </div>
+    </section>
     <main class="main-container">
         <section class="main-border">
             <h2 class="main-title">Calcula el precio a pagar de tus productos con descuento</h2>
@@ -34,12 +43,16 @@
             <form class="main-cuerpo">
                 <label for="inputPrice">Escribe el precio de tu producto </label>
                 <input id="inputPrice" type="number">
-
                 <label for="inputDiscount">Escribe el descuento de tu producto</label>
                 <input id="inputDiscount" type="number">
+                <label for="inputCoupon">Ingrese su cupon de descuento</label>
+                <input id="inputCoupon" type="text">
                 <div class="button">
                     <button type="button" onclick="onClickButtonPriceDicount()">
                         Calcular el precio con descuento
+                    </button>
+                    <button type="button" onclick="onClickButtonPriceDiscount1()">
+                        Calcular el precio con cupon
                     </button>
                 </div>
                 <div class="messaje">
@@ -48,11 +61,9 @@
             </form>
         </section>
     </main>
-
     <footer>
         <a href="https://github.com/Alexdly1 " target="_blank">© 2022 Copyright por Alexander Lizana Yauri</a>
     </footer>
     <script src="./descuentos.js"></script>
-    
 </body>
 </html>

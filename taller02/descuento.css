@@ -29,12 +29,20 @@ body {
     text-align: center;
     color: #000000;
 }
+.descuentos {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.descuentos p {
+    margin-top: 10px;
+}
 .main-container img {
     width: 100px;
     margin-top: 10px;
 }
 .main-border {
-    height: 450px;
+    height: 530px;
     width: 80%;
     margin: 50px auto;
     border: #8D60AE 5px solid;
@@ -74,6 +82,7 @@ body {
 }
 .button button {
     width: 120px;
+    margin: 5px;
 }
 .messaje {
     text-align: center;
