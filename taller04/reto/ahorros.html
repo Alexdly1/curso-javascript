@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorros a traves de los años</title>
+    <link rel="stylesheet" href="./ahorros.css">
+</head>
+<body>
+    <header class="cabecera">
+        <h1>Ahorros a traves de los años</h1>
+        <p>Cuarto taller curso JS </p>
+        <nav>
+            <ul class="cabecera-nav">
+                <li>
+                    <a href="/taller01/figuras.html" target="_blank">Taller 1</a>
+                </li>
+                <li>
+                    <a href="/taller02/descuentos.html" target="_blank">Taller 2</a>
+                </li>
+                <li>
+                    <a href="/taller03/promedio.html" target="_blank">Taller 3</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+    <main class="container">
+        <h2>Calcular el ahorros generado a traves de los años</h2>
+        <section class=" inputs">
+            <label for="inputAhorro">Ingrese sus ahorros</label>
+            <input id="inputAhorro" type="number">
+            <button type="button" onclick="buttonInputSalario ()">Ingresar</button>
+            <label for="inputAnnos">Ingrese los años</label>
+            <input id="inputAnnos" type="number">
+            <button type="button" onclick="buttonInputAnnio ()">Ingresar</button>
+        </section>
+        <div class="Calcular">
+            <button type="button" onclick="calcularAhorros ()">Calcular</button>
+        </div>
+        <div class="respuesta">
+            <p id="resultado"></p>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Alexdly1 " target="_blank">© 2022 Copyright por Alexander Lizana Yauri</a>
+    </footer>
+    <Script src="./ahorros.js"></Script>
+</body>
+</html>

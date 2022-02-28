@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #eeeeee;
+}
+.cabecera {
+    text-align: center;
+    margin:30px 10px;
+    font-size: 1.7rem;
+}
+.cabecera p {
+    margin-top: 20px;  
+}
+.cabecera-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cabecera-nav a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+.container {
+    text-align: center;
+    border: #8D60AE 5px solid;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 25px;
+    font-size: 1.6rem;
+}
+.inputs input {
+    display: block;
+    margin: 10px auto;
+}
+.inputs button {
+    display: block;
+    margin: 10px auto;
+}
+.Calcular {
+    margin-bottom: 10px;
+}
+.respuesta {
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    margin: 30px;
+    font-size: 1.6rem;
+}
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
