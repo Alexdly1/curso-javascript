@@ -1,0 +1,18 @@
+header {
+    margin: 40px;
+}
+header p {
+    margin-top: 40px;
+}
+.container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.container-elements ol{
+    width: 100%;
+}
+
+.container-elements li {
+    height: 200px;
+    width: 40%;
+}
